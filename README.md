@@ -68,3 +68,7 @@ use.​ ​You​ ​are​ ​done!
 You​ ​can​ ​also​ ​add​ ​a​ ​new​ ​reference​ ​from​ ​here,​ ​by​ ​selecting​ ​“Add​ ​new​ ​ref.”
 
 ![](./Editor/Medias/Documentation-008.jpg)
+
+## Link
+
+GitHub : https://github.com/Begounet/GameObjectRef
