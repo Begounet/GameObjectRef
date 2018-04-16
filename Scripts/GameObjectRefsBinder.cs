@@ -14,12 +14,12 @@ public class GameObjectRefsBinder : MonoBehaviour {
     public GameObjectReferenceAsset AssetRef;
     public GameObjectReferenceBinderData[] Bindings;
 
-	private void Awake()
-	{
-		for (int i = 0; i < Bindings.Length; ++i)
-		{
-			GameObjectReferenceBinderData binding = Bindings[i];
-			AssetRef.Datas[binding.GameObjectRefAssetDataIndex].TemporaryGameObjectReference = binding.ReferencedGameObject;
-		}
-	}
+    private void Awake()
+    {
+        for (int i = 0; i < Bindings.Length; ++i)
+        {
+            GameObjectReferenceBinderData binding = Bindings[i];
+            AssetRef.Datas[binding.GameObjectRefAssetDataIndex].TemporaryGameObjectReference = binding.ReferencedGameObject;
+        }
+    }
 }
